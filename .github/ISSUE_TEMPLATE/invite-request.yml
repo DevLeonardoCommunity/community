@@ -1,0 +1,33 @@
+name: Invite Request
+description: 📩 Request here to be invited as Community Member
+title: Invite Request for <username>
+labels: [invite-request]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Welcome! 👋
+        After creating an issue here you'll be invited to the Github Org as soon as possible.
+        Feel free to fill the optional fields below to better know each other!
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra info
+      description: How did you know about this community? What brings you here?
+  - type: dropdown
+    id: level
+    attributes:
+      label: What is your Web Development level?
+      description: Select your level of expertise as of now
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - Expert
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in joining the Community!
+        You can already join the Discord server [here](https://discord.gg/e2kYrpMcCtg)
+        Are you subscribed to the YouTube Channel? If not you're still in time, [subscribe here](https://www.youtube.com/@DevLeonardo?sub_confirmation=1)
+        See you soon! 👋
