@@ -1,0 +1,38 @@
+name: New Project Request
+description: 🚀 Request a new project to be added to the community
+title: New Project Request: <project-name>
+labels: [new-project-request]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Welcome! 👋
+        Thank you for your interest in proposing a new project. Please fill in the details below.
+  - type: textarea
+    id: project-name
+    attributes:
+      label: Project Name
+      placeholder: Enter the name of your project
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Project Description
+      placeholder: Briefly describe your project and its goals
+  - type: textarea
+    id: project-purpose
+    attributes:
+      label: Purpose of the Project
+      placeholder: Explain the purpose and intended outcomes of the project
+  - type: textarea
+    id: project-skills
+    attributes:
+      label: Required Skills
+      placeholder: List the skills or technologies required for this project
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new project! The community will review your request.
+
+        If you have any additional information or questions, feel free to include them.
+
+        See you soon! 👋
