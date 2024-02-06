@@ -13,6 +13,7 @@ body:
     attributes:
       label: 'Project Name'
       placeholder: 'Enter the name of your project'
+      required: true
   - type: textarea
     id: project-description
     attributes:
@@ -26,8 +27,8 @@ body:
   - type: textarea
     id: project-skills
     attributes:
-      label: 'Required Skills'
-      placeholder: 'List the skills or technologies required for this project'
+      label: 'Skills to Learn'
+      placeholder: 'List the skills that participants will learn by participating in this project'
   - type: markdown
     attributes:
       value: |
